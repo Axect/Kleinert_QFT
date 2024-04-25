@@ -14,7 +14,7 @@ fn main() {
                 .set_domain(mu)
                 .insert_image(poisson)
                 .set_xlabel(r"$\mu$")
-                .set_ylabel(r"$\sin \pi \mu (2N+1) / \sin \pi \mu$")
+                .set_ylabel(r"$\sin \pi \mu (2N+1) / \sin \pi \mu$ (Normalized)")
                 .set_title(&legend_str)
                 .set_style(PlotStyle::Nature)
                 .tight_layout()
